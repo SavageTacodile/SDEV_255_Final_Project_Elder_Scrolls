@@ -115,5 +115,5 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.5rem;
-  align-items: start;
+  grid-auto-rows: 1fr;
 }
