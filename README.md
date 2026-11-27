@@ -10,17 +10,17 @@ Final Project
 
 ## What it does
 
-- *Course index page* lists every course as a card with a view, edit, and delete button.
-- *Add course* will, at a future date, will have a drop down with all of the available courses. Selecting one will autofill the form.
+- **Course index page** lists every course as a card with a view, edit, and delete button.
+- **Add course** will, at a future date, will have a drop down with all of the available courses. Selecting one will autofill the form.
 
 ## Front-end choices -Brandon
 
--**Stuck with React, Vite, TypeScript, and Bootstrap to stay in line with what is being learned through the course's assignments. That way if there's an issue, the textbook may be able to help and we'll be set up to solve it. 
+-Stuck with React, Vite, TypeScript, and Bootstrap to stay in line with what is being learned through the course's assignments. That way if there's an issue, the textbook may be able to help and we'll be set up to solve it. 
 
 ## Pages and routes
 
 | Route | Page|
-
+|---|---|
 | '/' | Course index (all courses, Add Course button) |
 | '/courses/new' | Add course form |
 | '/courses/:id' | Course details |
