@@ -1,12 +1,13 @@
 :root {
-  --brand: #1d4ed8;
-  --brand-dark: #1e3a8a;
-  --accent: #dc2626;
-  --accent-dark: #b91c1c;
-  --highlight: #facc15;
-  --bg: #f8fafc;
+  --brand: #2e3440;
+  --brand-dark: #1f242d;
+  --accent: #b8642c;
+  --accent-dark: #9a5223;
+  --highlight: #e08a4e;
+  --bg: #eceff3;
   --card: #ffffff;
-  --text: #1f2037;
+  --text: #232830;
+  --line: #d5dae1;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
   background: var(--brand); 
 }
 .app-navbar .nav-link { 
-  color: #dbeafe; 
+  color: #c9d0da; 
 }
 .app-navbar .nav-link.active { 
   color: #ffffff; 
@@ -43,6 +44,26 @@ body {
 }
 
 
+.btn-outline-primary {
+  color: var(--brand);
+  border-color: var(--brand);
+}
+
+.btn-outline-primary:hover {
+  background: var(--brand);
+  color: #ffffff;
+}
+
+.btn-outline-secondary {
+  color: #5b6573;
+  border-color: #9aa3af;
+}
+
+.btn-outline-secondary:hover {
+  background: #5b7563;
+  color: #ffffff;
+}
+
 .badge-subject { 
   background: var(--brand); 
 }
@@ -53,9 +74,9 @@ body {
   flex-direction: column;
   
   background: var(--card); 
-  border: 1px solid #e2e8f0; 
+  border: 1px solid var(--line); 
   border-radius: 0.5rem;
-  box-shadow: 0 1px 3px rhba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card-body {
@@ -68,7 +89,7 @@ body {
 .card-footer { 
   padding: 0.75rem 1rem;
   background: var(--card); 
-  border-top: 1px solid #e2e8f0;
+  border-top: 1px solid var(--line);
   border-radius: 0 0 0.5rem 0.5rem;
 
 }
@@ -94,4 +115,5 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.5rem;
+  align-items: start;
 }
