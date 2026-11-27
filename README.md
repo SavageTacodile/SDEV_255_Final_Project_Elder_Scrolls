@@ -16,6 +16,8 @@ Final Project
 ## Front-end choices -Brandon
 
 -Stuck with React, Vite, TypeScript, and Bootstrap to stay in line with what is being learned through the course's assignments. That way if there's an issue, the textbook may be able to help and we'll be set up to solve it. 
+-Initially started by using tables. It worked, but it didn't feel right. I couldn't get to to look as good as it could be. 
+-Back to the drawing board, I looked at everything bootstrap offered and came upon cards. It felt like a logical choice for classes. There's a lot of potential for customization and ease of use.
 
 ## Pages and routes
 
